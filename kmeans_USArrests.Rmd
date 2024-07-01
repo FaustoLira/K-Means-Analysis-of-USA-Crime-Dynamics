@@ -3,8 +3,8 @@ title: "K-Means Analysis of USA Crime Dynamics"
 author: "Fausto Lira"
 date: "2024-02-13"
 output:
-  html_document: default
-  pdf_document: default
+  github_document:
+    html_preview: false
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
