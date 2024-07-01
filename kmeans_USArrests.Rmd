@@ -4,7 +4,7 @@ author: "Fausto Lira"
 date: "2024-02-13"
 output:
   github_document:
-    html_preview: false
+    html_preview: true
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
