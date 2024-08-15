@@ -1,5 +1,7 @@
 # K-Means Analysis of USA Crime Dynamics
 
+## Introduction
+
 The purpose of this study is to apply K-Means clustering to classify regions of the United States based on levels of violent crime, including murder, assault, and rape. By applying this technique to crime data, we aim to identify distinct groups of states with similar crime intensity.
 
 Although each type of crime impacts society differently, for the educational purpose of this project, we will determine the level of violence based on the average across the different types of crime.
