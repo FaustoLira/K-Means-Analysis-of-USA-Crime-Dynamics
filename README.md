@@ -1,4 +1,4 @@
-# K-Means Analysis of USA Crime Dynamics
+# USA Crime Dynamics
 
 ## Introduction
 
