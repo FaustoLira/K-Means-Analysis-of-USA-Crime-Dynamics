@@ -1,4 +1,4 @@
-K-Means Analysis of USA Crime Dynamics
+USA Crime Dynamics
 ================
 Fausto Lira
 2024-02-13

@@ -1,5 +1,5 @@
 ---
-title: "K-Means Analysis of USA Crime Dynamics"
+title: "USA Crime Dynamics"
 author: "Fausto Lira"
 date: "2024-02-13"
 output:
