@@ -37,6 +37,9 @@ The R code was developed through kmeans_USArrests.md file.
   - Histograms and scatter plots were used for univariate and bivariate analysis.
   - The correlation heatmap visualized the strength and direction of relationships between different types of crime.
   - PCA plots with two components were used to visualize and interpret the clustering results.
+
+- **Code and Results**:
+  - The R Markdown file contains code for data loading, preprocessing, analysis, and visualization.
  
 ## Impact
 
@@ -44,7 +47,5 @@ Delivered actionable insights into crime patterns for security agencies and publ
 
 ## Visuals
 
-- **Code and Results**:
-  - The R Markdown file contains code for data loading, preprocessing, analysis, and visualization.
 
 The markdown file can be visualized through kmeans_USArrests.md file.
