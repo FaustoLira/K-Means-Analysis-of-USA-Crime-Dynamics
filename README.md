@@ -47,5 +47,8 @@ Delivered actionable insights into crime patterns for security agencies and publ
 
 ## Visuals
 
+Table, histogram, heatmap, scatter plot, and linechart.
+
+## Disclaimer
 
 The markdown file can be visualized through kmeans_USArrests.md file.
