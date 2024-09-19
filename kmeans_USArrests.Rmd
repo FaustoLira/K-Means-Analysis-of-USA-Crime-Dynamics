@@ -227,7 +227,8 @@ kmeans2 <- kmeans(scaled_DB, centers = 2, nstart = 10)
 kmeans2
 ```
 ```{r}
-autoplot(kmeans2, scaled_DB, frame = TRUE)
+autoplot(kmeans2, scaled_DB, frame = TRUE) + ggtitle('Cluster Analysis') +
+  theme(plot.title = element_text(hjust = 0.5))
 ```
 #### Interpretation
 
@@ -250,7 +251,8 @@ kmeans3 <- kmeans(scaled_DB, centers = 3, nstart = 10)
 kmeans3
 ```
 ```{r}
-autoplot(kmeans3, scaled_DB, frame = TRUE)
+autoplot(kmeans3, scaled_DB, frame = TRUE) + ggtitle('Cluster Analysis') +
+  theme(plot.title = element_text(hjust = 0.5))
 ```
   
 #### Interpretation
@@ -276,7 +278,8 @@ kmeans4 <- kmeans(scaled_DB, centers = 4, nstart = 10)
 kmeans4
 ```
 ```{r}
-autoplot(kmeans4, scaled_DB, frame = TRUE)
+autoplot(kmeans4, scaled_DB, frame = TRUE)+ ggtitle('Cluster Analysis') +
+  theme(plot.title = element_text(hjust = 0.5))
 ```
   
 #### Interpretation
@@ -305,7 +308,8 @@ kmeans5
 ```
 
 ```{r}
-autoplot(kmeans5, scaled_DB, frame = TRUE)
+autoplot(kmeans5, scaled_DB, frame = TRUE)+ ggtitle('Cluster Analysis') +
+  theme(plot.title = element_text(hjust = 0.5))
 ```
   
 The clusters are overlapping.   
@@ -316,7 +320,8 @@ kmeans6 <- kmeans(scaled_DB, centers = 6, nstart = 10)
 kmeans6
 ```
 ```{r}
-autoplot(kmeans6, scaled_DB, frame = TRUE)
+autoplot(kmeans6, scaled_DB, frame = TRUE) + ggtitle('Cluster Analysis') +
+  theme(plot.title = element_text(hjust = 0.5))
 ```
   
 Overlapping again.

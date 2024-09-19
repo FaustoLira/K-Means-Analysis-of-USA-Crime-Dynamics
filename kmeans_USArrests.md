@@ -376,7 +376,8 @@ kmeans2
     ## [6] "betweenss"    "size"         "iter"         "ifault"
 
 ``` r
-autoplot(kmeans2, scaled_DB, frame = TRUE)
+autoplot(kmeans2, scaled_DB, frame = TRUE) + ggtitle('Cluster Analysis') +
+  theme(plot.title = element_text(hjust = 0.5))
 ```
 
 ![](kmeans_USArrests_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
@@ -441,7 +442,8 @@ kmeans3
     ## [6] "betweenss"    "size"         "iter"         "ifault"
 
 ``` r
-autoplot(kmeans3, scaled_DB, frame = TRUE)
+autoplot(kmeans3, scaled_DB, frame = TRUE) + ggtitle('Cluster Analysis') +
+  theme(plot.title = element_text(hjust = 0.5))
 ```
 
 ![](kmeans_USArrests_files/figure-gfm/unnamed-chunk-22-1.png)<!-- -->
@@ -510,7 +512,8 @@ kmeans4
     ## [6] "betweenss"    "size"         "iter"         "ifault"
 
 ``` r
-autoplot(kmeans4, scaled_DB, frame = TRUE)
+autoplot(kmeans4, scaled_DB, frame = TRUE)+ ggtitle('Cluster Analysis') +
+  theme(plot.title = element_text(hjust = 0.5))
 ```
 
 ![](kmeans_USArrests_files/figure-gfm/unnamed-chunk-24-1.png)<!-- -->
@@ -582,7 +585,8 @@ kmeans5
     ## [6] "betweenss"    "size"         "iter"         "ifault"
 
 ``` r
-autoplot(kmeans5, scaled_DB, frame = TRUE)
+autoplot(kmeans5, scaled_DB, frame = TRUE)+ ggtitle('Cluster Analysis') +
+  theme(plot.title = element_text(hjust = 0.5))
 ```
 
 ![](kmeans_USArrests_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
@@ -639,7 +643,8 @@ kmeans6
     ## [6] "betweenss"    "size"         "iter"         "ifault"
 
 ``` r
-autoplot(kmeans6, scaled_DB, frame = TRUE)
+autoplot(kmeans6, scaled_DB, frame = TRUE) + ggtitle('Cluster Analysis') +
+  theme(plot.title = element_text(hjust = 0.5))
 ```
 
 ![](kmeans_USArrests_files/figure-gfm/unnamed-chunk-28-1.png)<!-- -->
